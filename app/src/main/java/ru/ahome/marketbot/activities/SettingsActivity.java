@@ -1,10 +1,12 @@
-package ru.ahome.marketbot;
+package ru.ahome.marketbot.activities;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.text.Editable;
 import android.text.TextWatcher;
 import android.widget.EditText;
+
+import ru.ahome.marketbot.R;
 
 
 public class SettingsActivity extends AppCompatActivity {

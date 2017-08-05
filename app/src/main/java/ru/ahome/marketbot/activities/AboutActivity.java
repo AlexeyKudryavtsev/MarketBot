@@ -1,7 +1,9 @@
-package ru.ahome.marketbot;
+package ru.ahome.marketbot.activities;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+
+import ru.ahome.marketbot.R;
 
 public class AboutActivity extends AppCompatActivity {
 

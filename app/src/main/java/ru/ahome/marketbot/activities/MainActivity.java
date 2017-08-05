@@ -1,10 +1,12 @@
-package ru.ahome.marketbot;
+package ru.ahome.marketbot.activities;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+
+import ru.ahome.marketbot.R;
 
 public class MainActivity extends AppCompatActivity {
 
