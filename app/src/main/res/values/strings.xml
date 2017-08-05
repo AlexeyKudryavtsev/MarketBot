@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Market Bot Sample</string>
+    <string name="settings">Настройки</string>
+    <string name="main">Основные</string>
+    <string name="BOT_NAME">Bot name</string>
+    <string name="API_KEY">Api key</string>
+
+
+    <!-- About -->
+    <string name="about">О приложении</string>
+    <string name="website">Больше интересный идей на:\nhttp://example_site.ru</string>
+    <string name="email_label">Ваши пожелания вы можете отправить на:</string>
+    <string name="email" translatable="false">example_mail@mail.ru</string>
+    <string name="copyright">Версия 1.0\nРазработано в 2017</string>
+</resources>
