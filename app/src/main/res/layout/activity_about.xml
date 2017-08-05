@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:id="@+id/about_scrollview"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <RelativeLayout
+        android:id="@+id/about_holder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/activity_margin"
+        android:paddingLeft="@dimen/activity_margin"
+        android:paddingTop="@dimen/activity_margin">
+
+        <TextView
+            android:id="@+id/about_website"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autoLink="web"
+            android:text="@string/website"/>
+
+        <TextView
+            android:id="@+id/about_email_label"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/about_website"
+            android:layout_marginTop="@dimen/activity_margin"
+            android:text="@string/email_label"/>
+
+        <TextView
+            android:id="@+id/about_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/about_email_label"
+            android:paddingBottom="@dimen/activity_margin"
+            android:text="@string/email"/>
+
+
+
+        <TextView
+            android:id="@+id/about_copyright"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_below="@+id/about_email"
+            android:gravity="center_horizontal|bottom"
+            android:paddingTop="@dimen/activity_margin"
+            android:text="@string/copyright"/>
+    </RelativeLayout>
+</ScrollView>

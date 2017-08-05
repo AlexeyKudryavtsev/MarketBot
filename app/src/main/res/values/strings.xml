@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Market Bot Sample</string>
+    <string name="app_name">Market Bot</string>
     <string name="settings">Настройки</string>
     <string name="main">Основные</string>
     <string name="BOT_NAME">Bot name</string>
